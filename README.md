@@ -21,5 +21,11 @@ Total Score	Depression Severity
 15-19  -	Moderately severe depression
 20-27	  -Severe depression
 Without expertise on this subject, this analysis will consider above "Moderate depression" as "experiencing depression" as, otherwise, the percentage of students who have reported depression would be almost a 100%.
+# General Exploration
+1) Which factor (Psychological, Physiological, Environmental, Academic, Social) has the highest number of students reporting negative experiences or conditions?
+
+To answer this question, new dataframes, divided by factors, need to be made. Creating these dataframes provides a great opportunity aswell to set the threshold for "negative experience". However, there exists a little challenge added to this. On some columns, higher values is positive (academic performance, safety, living conditions) while on others it is negative (anxiety level, depression, headache).
+
+Also, for later questions, df_categories will be created. This dataframe will divide features on each factor, on their original values.
 
 Selecting those values where depression is higher than 10 and dividing by the total length will deliver the answer to this question.
