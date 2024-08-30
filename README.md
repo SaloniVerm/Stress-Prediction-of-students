@@ -29,3 +29,5 @@ To answer this question, new dataframes, divided by factors, need to be made. Cr
 Also, for later questions, df_categories will be created. This dataframe will divide features on each factor, on their original values.
 
 Selecting those values where depression is higher than 10 and dividing by the total length will deliver the answer to this question.
+# Conclusions
+On this analysis, all questions asked on the dataset card were answered, aswell as creating a model to predict the anxiety level. As seen on general exploration, correlations exhibit relatively high values, positive or negative, regarding anxiety levels. Therefore, working on improvements on each feature could be used as a mean to achieve improvements on the life of the students. Specifically, bullying and future carreer concerns, being easier to solve on the school side than, say, enviromental factors, should be looked into and dealt with.
